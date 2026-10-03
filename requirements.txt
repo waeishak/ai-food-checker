@@ -1,0 +1,9 @@
+streamlit==1.11.0
+tensorflow
+numpy<2.0.0
+Pillow
+opencv-python-headless
+streamlit-webrtc==0.45.0
+av
+protobuf==3.19.6
+altair==4.2.2
