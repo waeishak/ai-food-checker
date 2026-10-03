@@ -17,7 +17,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # กลับมาใช้คำสั่งโหลดโมเดลของ Streamlit 1.11.0
-@st.experimental_singleton
+@st.cache_resource
 def load_model():
     return tf.keras.models.load_model('food_freshness_model.keras')
 
